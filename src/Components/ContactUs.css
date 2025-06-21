@@ -1,0 +1,29 @@
+
+.contact-section {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  font-weight: 500;
+}
+
+.btn-primary {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.btn-primary:hover {
+  background-color: #004494;
+}
+
+ /* img.img-fluid {
+  margin-bottom: 20px;
+  border-radius: 18px;
+}   */
+ /* .wide-image { 
+ width: 100%;      /* Take full width of parent */
+/* max-width: 40%;  Prevent overflow  
+ object-fit: cover; 
+ }     */

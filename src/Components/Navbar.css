@@ -1,0 +1,31 @@
+.navbar{
+  background-color: #D3455B;
+}
+
+.nav-item {
+  font-size: 20px;  
+}
+.nav-item :hover {
+  color: whitesmoke;
+}
+.new {
+  display: flex !important;
+  justify-content: flex-end !important;
+}
+.icon {
+  padding: 10px;
+  font-size: 20px;
+}
+.cart-count sup{
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  padding: 2px 6px;
+}
+.button{
+  background-color: #ee9eab;
+}
+.button:hover{
+  background-color: #464142;
+  color: antiquewhite;
+}

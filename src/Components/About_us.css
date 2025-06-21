@@ -1,0 +1,20 @@
+.division {
+  width: 100%;
+  height: auto;
+  background-color: #D3455B;
+  padding: 50px 20px;
+  border-radius: 5px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  text-align: center;
+}
+
+.box {
+  background-color: #FFBE98;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 900px;
+  width: 100%;
+  text-align: center;
+}
