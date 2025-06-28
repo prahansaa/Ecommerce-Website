@@ -32,11 +32,11 @@ const Products = () => {
             <div className="row mt-3">
                 {data.map((value) => (
                     <div className="col-md-3 mb-3" key={value.id}>
-                        <div className="card rounded-0 shadow shadow-1">
+                        <div className="card rounded-0 shadow shadow-1" style={{ height: '450px' }}>
                             <div className="card-body">
                                 <img src={value.image} alt="" height="250px" width="100%" />
-                                <h4>{value.title}</h4>
-                                <h4>${value.price}</h4>
+                                <h5 style={{ height: '50px', overflow: 'hidden', marginTop: '10px' }}>{value.title}</h5>
+                                <h6>${value.price}</h6>
                                 <button
                                     className="btn btn-primary mx-auto d-block"
                                     onClick={() => navigate(`/products/details/${value.id}`)}

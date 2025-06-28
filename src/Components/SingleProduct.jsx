@@ -37,7 +37,7 @@ const SingleProduct = () => {
                                     <img
                                         src={item.image}
 
-                                        style={{ width: "100%", height: "500px" }}
+                                        style={{ width: "400px", height: "400px", objectFit: "contain" }}
                                     />
                                 </div>
                                 <div className="ps-md-5">

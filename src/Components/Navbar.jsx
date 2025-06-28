@@ -14,9 +14,9 @@ const Navbar = () => {
     <>
       <nav className="navbar navbar-expand-sm">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <NavLink className="navbar-brand" href="#">
             <img src={logo} height="80px" width="80px" />
-          </a>
+          </NavLink>
           <button
             className="navbar-toggler"
             type="button"
